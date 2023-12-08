@@ -1,0 +1,150 @@
+$date
+	Wed Nov 22 09:32:48 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 1 ! f $end
+$var wire 1 " d $end
+$var wire 1 # c $end
+$var wire 1 $ b $end
+$var wire 1 % a $end
+$scope module d $end
+$var wire 1 ! f $end
+$var reg 1 % a $end
+$var reg 1 $ b $end
+$var reg 1 # c $end
+$var reg 1 " d $end
+$var integer 32 & i [31:0] $end
+$upscope $end
+$scope module d2 $end
+$var wire 1 % a $end
+$var wire 1 $ b $end
+$var wire 1 # c $end
+$var wire 1 " d $end
+$var wire 1 ! f $end
+$var wire 1 ' f1 $end
+$var wire 1 ( f2 $end
+$var wire 1 ) f3 $end
+$var wire 1 * f4 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x*
+x)
+x(
+x'
+b0 &
+x%
+x$
+x#
+x"
+x!
+$end
+#1
+0(
+0!
+0*
+1'
+0)
+b1 &
+0%
+0$
+0#
+0"
+#2
+1!
+1)
+b10 &
+1"
+#3
+1(
+0!
+0'
+0)
+b11 &
+1#
+0"
+#4
+b100 &
+1"
+#5
+0!
+0(
+0*
+1'
+b101 &
+1$
+0#
+0"
+#6
+1!
+1)
+b110 &
+1"
+#7
+1*
+1(
+1!
+0'
+0)
+b111 &
+1#
+0"
+#8
+b1000 &
+1"
+#9
+0!
+0*
+b1001 &
+1%
+0$
+0#
+0"
+#10
+b1010 &
+1"
+#11
+0(
+1'
+b1011 &
+1#
+0"
+#12
+1!
+1)
+b1100 &
+1"
+#13
+1*
+1(
+1!
+0'
+0)
+b1101 &
+1$
+0#
+0"
+#14
+b1110 &
+1"
+#15
+0!
+0*
+0(
+1'
+b1111 &
+1#
+0"
+#16
+1!
+1)
+b10000 &
+1"

@@ -1,0 +1,46 @@
+$date
+	Wed Nov 22 10:07:16 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 1 ! f_out $end
+$var wire 1 " c $end
+$var wire 1 # b $end
+$var wire 1 $ a $end
+$scope module d1 $end
+$var wire 1 ! f_out $end
+$var reg 1 $ a $end
+$var reg 1 # b $end
+$var reg 1 " c $end
+$upscope $end
+$scope module d2 $end
+$var wire 1 $ a $end
+$var wire 1 # b $end
+$var wire 1 " c $end
+$var wire 1 % f1 $end
+$var wire 1 ! f_out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x%
+0$
+0#
+1"
+x!
+$end
+#10
+1%
+#20
+0!
+#21
+0"
+#31
+1!
+#71
